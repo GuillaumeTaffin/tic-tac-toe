@@ -1,11 +1,18 @@
 body {
+    font-family: Helvetica;
     background-color: aliceblue;
     max-width: 600px;
     margin: auto;
 }
 
 #gameTitle {
+    color: rgb(45, 37, 116);
+    background-color: rgb(187, 223, 255);
+    padding: 20px;
     text-align: center;
+    box-shadow: 5px 5px 5px rgba(59, 51, 116, 0.200);
+    border: 2px solid rgba(105, 90, 205, 0.363);
+    border-radius: 5px;
 }
 
 .grid-container {
