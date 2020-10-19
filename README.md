@@ -9,6 +9,8 @@ Follow the steps :
 - enjoy !
 
 ## Release Notes
+### V1.0.1
+- Add release notes in the readme
 ### V1.0
 - Creation of the game
 - Allow two human players to play together in the browser
