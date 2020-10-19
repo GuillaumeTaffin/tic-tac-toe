@@ -8,6 +8,11 @@ Follow the steps :
 - open the index.html file in your favorite browser
 - enjoy !
 
+## Release Notes
+### V1.0
+- Creation of the game
+- Allow two human players to play together in the browser
+
 ## Icon resources
 Icons were found at https://www.flaticon.com/free-icon
 
