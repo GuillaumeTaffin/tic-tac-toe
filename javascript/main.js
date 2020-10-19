@@ -2,11 +2,10 @@ const players = {
     ROUND: 'round',
     CROSS: 'cross'
 }
+let gameState;
 
 configureGameBoard();
-
-let gameState = resetGameState();
-
+resetGameState();
 
 function configureGameBoard() {
     let gridItems = findGridItems();
@@ -24,7 +23,7 @@ function configureGameBoard() {
 
 function resetGameState() {
     initGrid();
-    return initState();
+    gameState = initState();
 }
 
 function initState() {
@@ -42,7 +41,7 @@ function initGrid() {
     const items = findGridItems();
     items.forEach(item => {
         while (item.firstChild) {
-            myNode.removeChild(myNode.lastChild);
+            item.removeChild(item.lastChild);
         }
     });
 }

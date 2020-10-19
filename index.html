@@ -9,19 +9,27 @@
 </head>
 <body>
 
-    <h1 id="gameTitle">TIC TAC TOE</h1>
+    <div class="vertical-container">
+        <div class="title-header">  
+            <h1 id="gameTitle">TIC TAC TOE</h1>
+        </div>
 
-    <div class="game-board">
-        <div class="grid-container">
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
+        <div class="game-board">
+            <div class="grid-container">
+                <div class="grid-item v-top h-left"></div>
+                <div class="grid-item v-top h-mid"></div>
+                <div class="grid-item v-top h-right"></div>
+                <div class="grid-item v-mid h-left"></div>
+                <div class="grid-item v-mid h-mid"></div>
+                <div class="grid-item v-mid h-right"></div>
+                <div class="grid-item v-bot h-left"></div>
+                <div class="grid-item v-bot h-mid"></div>
+                <div class="grid-item v-bot h-right"></div>
+            </div>
+
+        </div>
+        <div class="info-section">
+            <button id="reset-game" onclick="resetGameState()">RESET GAME</button>
         </div>
     </div>
     
