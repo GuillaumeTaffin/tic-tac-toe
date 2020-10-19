@@ -38,7 +38,7 @@ body {
 .game-board {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin: 40px;
     justify-content: center;
 }
 
@@ -85,6 +85,13 @@ img {
     border-radius: 5px;
     margin: 10px;
 }
+
+.info-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 
 #reset-game:hover {
     transform: scale(1.05); 
